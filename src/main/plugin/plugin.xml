@@ -1,0 +1,16 @@
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://www.jivesoftware.com/schemas/clearspace/2_5/plugin.xsd">
+<name>jive-hello-world-widget</name>
+<description>A nice and simple Hello, World plugin!</description>
+<author>Mayur, Original author: Sean M. Staley</author>
+<version>1.0.0</version>
+
+<!-- It is good practice to only develop a plugin toward one version of Jive SBS -->
+<minServerVersion>5.0.3</minServerVersion>
+<maxServerVersion>6.0.5</maxServerVersion>
+
+<!-- Database Key that should always be added, writing to the database or not -->
+<databaseKey>1000000</databaseKey>
+
+<widget class="com.jivesoftware.helloworld.HelloWorldWidget" />
+</plugin>
